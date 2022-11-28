@@ -4,7 +4,7 @@ function authCheck() {
     var password = document.getElementById("password").value;
     let span = document.querySelector('span');
 
-    if (email == "matijagudic@hotmail.com" && password == "241241") {
+    if (email == "peroperic@hotmail.com" && password == "241241") {
         window.location = "home.html"; //redirect 
         return false;
     }
